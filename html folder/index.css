@@ -1,0 +1,100 @@
+*{
+    
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+.a{
+    
+    height: 100px;
+    width: 600px;
+}
+.b{
+    
+    height: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+nav{
+    
+    background-color:#070A52;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+img{
+    height: 100px;
+}
+body{
+    background-color: #d7d7e0;
+}
+.parent{
+    
+    height: 500px;
+    width:1300px;
+    background-image: url(https://www.lufthansa.com/content/dam/lh/images/pixels_variations/c-1540918663-6561294.jpg.transform/lh-dcep-transform-width-1440/img.jpg);
+    background-size: cover;
+    
+    
+}
+
+.parent1{
+    
+    height: 300px;
+    width: 1260px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.child1{
+    border: 1px solid black;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/739987/pexels-photo-739987.jpeg?cs=srgb&dl=pexels-vivek-chugh-739987.jpg&fm=jpg);
+    background-size: cover;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.child2{
+    border: 1px solid black;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image:url(https://www.thestatesman.com/wp-content/uploads/2020/08/flight-2.jpg);
+    background-size: cover;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+@media screen and(min-width:0px)and(max-width:430px) {
+    nav{
+        background-color: bisque;
+    }
+    
+}
+@media screen and(min-width:431px)and(max-width:700px) {
+    nav{
+        background-color: rgb(87, 2, 42);
+    }
+    
+}
