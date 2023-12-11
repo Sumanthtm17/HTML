@@ -1,0 +1,76 @@
+*{
+padding: 0px;
+margin: 0px;
+color: black;
+box-sizing: border-box;
+text-decoration: none;
+
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+body{
+    background-image: url(https://mainwebstorage.blob.core.windows.net/mediacontainers/styles/1920x1400/azure/2022-03/_DSC2893.jpg?h=c1b49d9b&itok=7Mq2VVyQ);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:static;
+}
+
+.parent{
+    
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient();
+    
+    
+}
+.child{
+   
+    height: 100px;
+    width: 700px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent1{
+    
+    width: 1290px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient();
+    position: sticky;
+    margin: 0px;
+    
+}
+.child1{
+   
+    height: 300px;
+    width: 500px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://robbreport.com/wp-content/uploads/2021/01/1-6.jpg);
+    background-size: cover;
+}
+.child1:hover{
+    transform: scale(1.1,1.1);
+}
+.child2{
+  
+    height: 300px;
+    width: 500px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://mainwebstorage.blob.core.windows.net/mediacontainers/styles/1920x1400/azure/2023-07/Koenigsegg%20Gemera%20in%20front%20of%20the%20Gripen%20Atelier%20copy.jpg?h=009d19b8&itok=7aI1vjIU);
+    background-size: cover;
+}
+.child2:hover{
+    transform: scale(1.1,1.1);
+}
